@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japmala Counter</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div id="confettiContainer"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Count Your Rosary</h1>
+        </div>
+        <div class="ram">
+            <img src="ram.png">
+        </div>
+        <div class="ravan">
+            <img src="ravan.png">
+        </div>
+        <div class="counter">
+            <h2>Bead Count: <span id="beadCount">0</span></h2>
+            <h2>Mala Count: <span id="malaCount">0</span></h2>
+            <h2>Time Taken for Last Mala: <span id="timeTaken">0</span> seconds</h2>
+            <h2 class="timer">Live Timer: <span id="liveTimer">0</span> seconds</h2>
+            <button onclick="countBead()">Count Bead</button>
+        </div>
+        <div class="footer">
+            <p>Keep counting and stay mindful!</p>
+            <p>Yours, Varenya! &#128513;</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
