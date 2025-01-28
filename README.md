@@ -1,0 +1,1 @@
+A visually appealing web application (HTML, CSS, JS) for tracking Japmala recitation. Features include bead counting, time tracking, previous Mala time display, and a celebratory confetti animation upon Mala completion. UI boasts a gradient saffron background and symbolic imagery enhancing user experience.
